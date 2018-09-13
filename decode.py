@@ -35,7 +35,7 @@ def main():
     binText = ASCIItoBin(text)
     decodelist.append(BintoASCII(text))
     decodelist.append(BintoBase(binText))
-    decodelist.(BintoHex(binText))
+    decodelist.append(BintoHex(binText))
     j = 0
     correct = []
     for decoded in decodelist:
