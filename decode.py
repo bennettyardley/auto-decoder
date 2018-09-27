@@ -9,7 +9,7 @@ def caesar(text, shift):
 def ASCIItoBin(text):
     return binascii.a2b_uu(text)
 
-def BintoASCII(text):
+def (text):
     return binascii.b2a_uu(text)
 
 def BintoBase(text):
