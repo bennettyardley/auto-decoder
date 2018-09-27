@@ -6,7 +6,7 @@ def caesar(text, shift):
     table = str.maketrans(alphabet, shifted_alphabet)
     return text.translate(table)
 
-def (text):
+def ASCIItoBin(text):
     return binascii.a2b_uu(text)
 
 def BintoASCII(text):
