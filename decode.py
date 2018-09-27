@@ -15,7 +15,7 @@ def BintoASCII(text):
 def BintoBase(text):
     return binascii.b2a_base64(text)
 
-def (text):
+def BasetoBin(text):
     return binascii.a2b_base64(text)
 
 def BintoHex(text):
