@@ -1,8 +1,7 @@
 import string, binascii, enchant, re
 
 def caesar(text, shift):
-    atoz = string.ascii_lowercase
-    shiftatoz = atoz[shift:] + atoz[:shift]
+    
     table = str.maketrans(alphabet, shifted_alphabet)
     return text.translate(table)
 
