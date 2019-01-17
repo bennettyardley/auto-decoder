@@ -1,4 +1,4 @@
- string, binascii, enchant, re
+import string, binascii, enchant, re
 
 def caesar(text, shift):
     atoz = string.ascii_lowercase
